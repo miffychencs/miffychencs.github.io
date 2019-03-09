@@ -1,0 +1,30 @@
+languages:
+  - item: Java
+  - item: Python
+  - item: C, C++, C#
+  - item: HTML, CSS/SCSS
+  - item: JavaScript
+  - item: SQL
+
+frameworks:
+  - item: Vue
+  - item: React
+  - item: Jekyll
+  - item: Node.js
+  - item: Wordpress
+
+os:
+  - item: Android
+
+tools:
+  - item: Git & Github
+  - item: Chrome DevTools
+  - item: Postman API
+  - item: Insomnia
+  - item: MongoDB
+  - item: MySQL
+
+human-languages:
+  - item: English
+  - item: Chinese
+  - item: Japanese

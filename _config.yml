@@ -1,0 +1,39 @@
+# Site settings
+name: Miffy Chen
+title: Miffy Chen | Software Engineer
+description:
+url: https://miffychen.com/
+baseurl: ""
+email: mchen15@bu.edu
+cover: https://miffychen.com/img/og.png
+logo: https://miffychen.com/img/emojis/technologist.png
+resume: resume.pdf
+social:
+  - title: email
+    url: mailto:mchen15@bu.edu
+  - title: github
+    url: https://github.com/miffycs
+  - title: linkedin
+    url: https://www.linkedin.com/in/miffychen
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "build"
+  - "gulpfile.js"
+  - "package.json"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

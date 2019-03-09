@@ -1,0 +1,57 @@
+.status {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 1.1rem;
+  font-weight: normal;
+
+  &__light {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__ring {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      animation: pulsate 2s ease-out;
+      animation-iteration-count: infinite;
+      opacity: 0;
+      border: 3px solid #ff3333;
+      border-radius: 30px;
+    }
+
+    @keyframes pulsate {
+      0% {
+        transform: scale(0.1, 0.1);
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1.2, 1.2);
+        opacity: 0;
+      }
+    }
+
+    &__led {
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      background: #ff3333;
+      border-radius: 100%;
+    }
+  }
+
+  &__message {
+    margin-left: 15px;
+  }
+  &__emp {
+      display: inline-block;
+      font-weight: bolder;
+      padding: 0 2px;
+  }
+}
